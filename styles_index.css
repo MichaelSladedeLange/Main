@@ -241,7 +241,10 @@ to   { transform: rotate(360deg) translateX(300px)  rotate(110deg);}
   text-align: left;
   width: 100%;
   line-height: 2;
-}
+  margin: 0 auto 0 auto;
+ }
+ .container{
+   margin: 0 auto 0 auto; }
 .AboutMe_ImageOne{
   height: 200px;
   animation: circle 10s linear infinite;
@@ -302,6 +305,7 @@ text-align: center;
   /*headerSection*/
 .HeaderSection{
   width: 90%;
+  margin: 0 auto 0 auto;
 }
 /*////////////////////////////////////////////////////////////////////////////////*/
 /*  Scroll Down Section Op Mobile*/
