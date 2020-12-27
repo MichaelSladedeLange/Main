@@ -1,8 +1,12 @@
 html{
   height: 100%;
+  width: 100%;
+    overflow-x: hidden;
 }
 body{
   height: 100%;
+  width:100%;
+    overflow-x: hidden;
 }
 hr{
 	border-top: 1px solid #8c8b8b;
@@ -34,18 +38,36 @@ hr{
 
 /*The header section*/
 .TopHeader{
-  position: static;
-  height: 250px;
+  position: relative;
   background-color: black;
   text-align: center;
+  padding-bottom: 20px;
 }
 .TopHeader_h1{
-  position: relative;
-  padding-top: 10px;
-  top: 43%;
-  font-size: 4rem;
+  padding-top: 200px;
+  height: 250px;
+  font-size: 3rem;
   color:white;
   font-family: "Montserrat",sans-serif;
+}
+.ball{
+  position: relative;
+  height: 10px;
+  top:30%;
+  animation: sideside 1s linear infinite alternate;
+}
+.sum{
+  color:white;
+  padding: 10px;
+  width: 85%;
+  margin: 0 auto 0 auto;
+}
+@keyframes sideside {
+  0%{transform: translate(45vw);}
+  15%{transform: translate(42vw);}
+  50%{transform: scale(2,0.2)}
+  85%{transform: translate(-42vw);}
+  100%{transform: translate(-45vw);}
 }
 
 /*University section */
@@ -109,6 +131,9 @@ hr{
 .flex3_item_1{
   text-align: center;
 }
+.flex3_item_2{
+  margin-bottom: 25px;
+}
 
 
 
@@ -151,11 +176,10 @@ hr{
 }
 .ListItems{
 color:white;
-font-size: 1.2rem;
 font-family: "Montserrat";
 }
 .ListItems2{
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 .ListItems:hover{
   color:white;
@@ -234,6 +258,12 @@ font-size: 0.8rem;
 }
 .SpaceInvaders{
   padding: 20px;
+}
+.gamegif{
+  border-style: solid;
+   border-width: 2px;
+    border-radius:20%;
+
 }
 
 
@@ -322,7 +352,12 @@ margin: 0 auto 0 auto;
 }
 .otherInfo{
   width:100%;
-
+}
+.gamegif{
+  width:100%;
+}
+.nav-link{
+  font-size: 0.8rem;
 }
 
 }
