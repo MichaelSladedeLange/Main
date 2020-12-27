@@ -10,6 +10,9 @@ body{
   width:100%;
   overflow-x: hidden;
 }
+.SizeAdaption{
+  font-size: 1.2rem;
+}
 /*Sets the fixed background images*/
 .BackCoverDesk{
   position: fixed;
@@ -311,6 +314,12 @@ text-align: center;
   width: 90%;
   margin: 0 auto 0 auto;
 }
+.Header_Welcome{
+  font-size: 3rem;
+}
+.Header_Discrip{
+  font-size: 1.5rem;
+}
 /*////////////////////////////////////////////////////////////////////////////////*/
 /*  Scroll Down Section Op Mobile*/
 .ScrollDown_Mobile1{
@@ -353,7 +362,9 @@ text-align: center;
 .AboutMe{
   text-align: center;
 }
-
+.SizeAdaption{
+  font-size: 1rem;
+}
 
 
 
