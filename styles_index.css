@@ -316,6 +316,10 @@ text-align: center;
   width: 50%;
   margin: 0 auto 0 auto;
 }
+.ShootStar{
+  position: absolute;
+  animation: none;
+}
 
 /*//////////////////////////////////////////////////////////////////////////////*/
 /*EarthSection*/
