@@ -6,7 +6,7 @@ html{
 body{
   margin: 0;
   height: 100%;
-  width:100%;
+  width:99%;;
   overflow-x: hidden;
 }
 /*Sets the fixed background images*/
@@ -318,6 +318,9 @@ text-align: center;
 }
 .ShootStar{
   position: absolute;
+  animation: none;
+}
+.AstroTwo{
   animation: none;
 }
 
