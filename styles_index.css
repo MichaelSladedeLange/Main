@@ -6,8 +6,7 @@ html{
 body{
   margin: 0;
   height: 100%;
-  width:99%;;
-  overflow-x: hidden;
+  width:100%;
 }
 /*Sets the fixed background images*/
 .BackCoverDesk{
@@ -241,10 +240,7 @@ to   { transform: rotate(360deg) translateX(300px)  rotate(110deg);}
   text-align: left;
   width: 100%;
   line-height: 2;
-  margin: 0 auto 0 auto;
- }
- .container{
-   margin: 0 auto 0 auto; }
+}
 .AboutMe_ImageOne{
   height: 200px;
   animation: circle 10s linear infinite;
@@ -305,7 +301,6 @@ text-align: center;
   /*headerSection*/
 .HeaderSection{
   width: 90%;
-  margin: 0 auto 0 auto;
 }
 /*////////////////////////////////////////////////////////////////////////////////*/
 /*  Scroll Down Section Op Mobile*/
@@ -316,18 +311,11 @@ text-align: center;
     animation: Mobile2 2s ease-in 1;
     opacity: 1;
 }
-.ShootStar{
-  position: absolute;
-  animation: none;
-}
-.AstroTwo{
-  animation: none;
-}
 
 /*//////////////////////////////////////////////////////////////////////////////*/
 /*EarthSection*/
 .EarthSection{
-  width: 90%;
+  width: 80%;
 }
 
 .SatOne{
