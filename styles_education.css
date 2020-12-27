@@ -1,0 +1,350 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+hr{
+	border-top: 1px solid #8c8b8b;
+  margin:0;
+}
+
+.Back{
+  height: 100%;
+  width: 100%;
+  background-color: #222831;
+  position: fixed;
+  z-index: -2;
+}
+
+/*/////////////////////////////////////////////////////////////////////*/
+/*Navbar Section*/
+.NavBarSection{
+  position: fixed;
+  width: 100%;
+  z-index:1;
+}
+.nav{
+  background: black;
+}
+.nav-link{
+  font-size: 1rem;
+  color: white;
+}
+
+/*The header section*/
+.TopHeader{
+  position: static;
+  height: 250px;
+  background-color: black;
+  text-align: center;
+}
+.TopHeader_h1{
+  position: relative;
+  padding-top: 10px;
+  top: 43%;
+  font-size: 4rem;
+  color:white;
+  font-family: "Montserrat",sans-serif;
+}
+
+/*University section */
+.uni{
+  color:white;
+  padding: 15px;
+  background-image: url(images/StelliesBack.png);
+  background-color: #41444b;
+  text-align: center;
+}
+.uni_Image{
+  height: 250px;
+  margin-bottom: 20px;
+}
+.Uni_Info{
+  color: white;
+  width: 50%;
+  text-align: center;
+  margin: 50px auto 25px auto;
+}
+.Summary{
+  text-align: center;
+  width: 50%;
+  margin:25px auto 25px auto;
+  color: white;
+}
+.EduImgOne{
+  height: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  animation: Float 15s ease-in-out infinite;
+}
+.flex-container_one{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 25px auto 25px auto;
+}
+.flex_container_two{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  width: 85%;
+  margin: 25px auto 25px auto;
+}
+.flex2_item_2{
+  width: 800px;
+  text-align:center;
+}
+.flex_container_three{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto 25px auto;
+}
+.flex3_item_1{
+  text-align: center;
+}
+
+
+
+/*High schoool section*/
+.HighSchool{
+  padding: 15px;
+  text-align: center;
+  background-image: url(images/AshtonBack.png);
+  background-repeat: no-repeat;
+  background-color: #393e46;
+  color: white;
+}
+.HighSchool_Image{
+  height: 200px;
+  padding-bottom: 10px;
+}
+.HighSchool_two{
+  text-align: center;
+  background-color:#52575d;
+}
+.HighSchool_Info{
+  width: 50%;
+  margin:0 auto 25px auto;
+  font-size: 1rem;
+  color:white;
+  font-family: "Montserrat",sans-serif;
+  padding-top: 50px;
+}
+.flex-container-four{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto 0 auto;
+  color: white;
+}
+.flex4_item_2{
+  text-align: left;
+}
+.ListItems{
+color:white;
+font-size: 1.2rem;
+font-family: "Montserrat";
+}
+.ListItems2{
+  font-size: 1.1rem;
+}
+.ListItems:hover{
+  color:white;
+  font-weight: bold;
+}
+
+
+/*Coding section*/
+.CODINGBACK{
+  background-color: black;
+}
+.CodeingHeader{
+  background-image: url(Education/codingback.jpg);
+  background-repeat: repeat-x;
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 20px;
+
+}
+.flex_container_five{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+  background-color: black;
+  color:white;
+  width: 70%;
+  margin: 0 auto 0 auto;
+}
+.Coding_info{
+  background-color: black;
+  font-family: "Montserrat",sans-serif;
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+.flex5_item_2{
+  width: 800px;
+  text-align: center;
+}
+/*gif sections*/
+.gif{
+  border-style:solid;
+  border-radius: 5%;
+  border-width: 2px;
+  border-color: white;
+  width:85%;
+  margin: 15px 0 15px 0;
+}
+.gif2{
+  border-style:solid;
+  border-radius: 30%;
+  border-width: 2px;
+  border-color: white;
+  width:100%;
+  margin: 20px 0 20px 0;
+}
+.ExcelGifSection{
+  color:white;
+  text-align: center;
+  padding:20px;
+  margin: 0 auto 0 auto;
+}
+.BetterDesk{
+  opacity: 0;
+font-size: 0.8rem;
+}
+
+.flex_container_six{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items:center;
+  width: 85%;
+  margin: 5px auto 15px auto;
+}
+.SpaceInvaders{
+  padding: 20px;
+}
+
+
+
+
+/*Other Section*/
+.backothercolor{
+  background-color: #16213e;
+}
+.otherclass{
+  background-image: url(Education/otherback.jpg);
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+.OtherImg{
+  height: 150px;
+}
+.otherInfo{
+  width: 50%;
+  color:white;
+  margin: 0 auto 0 auto;
+  padding: 25px;
+  text-align: center;
+}
+.Udemy_img{
+width: 250px;
+margin: 0 auto 0 auto;
+}
+.flex_container_seven{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.flex7{
+  padding: 10px;
+  width: 250px;
+  color:white;
+  text-align: center;
+}
+.fleximg {
+  border-style: solid;
+  border-radius: 10%;
+  border-width: 5px;
+  border-color: #a3d2ca;
+  margin-bottom: 10px;
+  width: 100%;
+    animation: Float 15s ease-in-out infinite;
+}
+
+
+
+
+
+
+/*Change the display size settings*/
+@media (max-width: 800px){
+.HighSchool_Info{
+  width:95%;
+}
+.Summary{
+  width: 80%;
+}
+.Uni_Info{
+  width: 80%;
+}
+.EduImgOne{
+  margin-top: 0;
+}
+.flex-container-four{
+  width:90%;
+}
+.flex_container_five{
+  width:90%;
+  padding: 25px;
+}
+.gif{
+  width:95%;
+}
+.ExcelGifSection{
+    padding: 20px 0 20px 0;
+    width:95%;
+}
+.BetterDesk{
+  opacity: 1;
+}
+.otherInfo{
+  width:100%;
+
+}
+
+}
+
+@media (min-width: 801px) and (max-width: 1800px){
+.flex_container_six{
+  width: 100%;
+}
+.gif2{
+  width: 250px;
+}
+
+
+}
+@keyframes Float {
+  0%{ transform: rotate(0deg);}
+  0.5% {transform: rotate(-1deg);}
+  1% {transform: rotate(1deg);}
+  1.5% {transform: rotate(-1deg);}
+  2% {transform: rotate(1deg);}
+  2.5% {transform: rotate(-1deg);}
+  3% {transform: rotate(1deg);}
+  3.5% {transform: rotate(-0deg);}
+  100%{transform: rotate(-0deg);}
+}

@@ -1,0 +1,241 @@
+/*//////////////////////////////*/
+/*Background section*/
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+height: 100%;
+  width: 100%;
+}
+
+/*Sets the fixed background images*/
+.BackCoverDesk {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+}
+
+.BackCoverMobile {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+}
+
+.StarShip {
+  position: absolute;
+  height: 100px;
+  opacity: 1;
+  animation: Move 50s ease-in-out infinite;
+}
+
+@keyframes Move {
+  0%{transform: translate(5vw,10vh) rotate(90deg);}
+  30%{transform: translate(90vw,10vh)rotate(90deg);}
+    31%{transform: translate(90vw,10vh) rotate(180deg);}
+    50%{transform: translate(90vw,80vh)rotate(180deg);}
+    51%{transform: translate(90vw,80vh) rotate(270deg);}
+      80%{transform: translate(5vw,80vh) rotate(270deg);}
+      81%{transform: translate(5vw,80vh) rotate(360deg);}
+        100%{transform: translate(5vw,10vh)rotate(360deg);}
+}
+
+/*Chages the background image based on the screen dispaly*/
+@media (max-width: 800px) {
+  .BackCoverDesk {
+    opacity: 0;
+  }
+
+  .BackCoverMobile {
+    opacity: 1;
+  }
+}
+
+@media (min-width: 800px) {
+  .BackCoverDesk {
+    opacity: 1;
+  }
+
+  .BackCoverMobile {
+    opacity: 0;
+  }
+}
+
+/*Motion and animation of the background and the shooting star*/
+.BackCoverMotionDesk {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+  animation: SkyMotion 20s linear infinite alternate;
+}
+
+@keyframes SkyMotion {
+  0% {transform: rotate(0deg);}
+  100% { transform: rotate(36deg);}
+}
+
+@keyframes shootingStar {
+  0% {
+    transform: translate(-10vh, -10vh);
+    opacity: 0;
+  }
+
+  0.5% {
+    opacity: 1;
+  }
+
+  1% {
+    transform: translate(40vh, 40vh);
+    opacity: 0;
+  }
+
+  30% {
+    transform: translate(70vh, 30vh);
+    opacity: 0;
+  }
+
+  30.5% {
+    opacity: 1;
+  }
+
+  31% {
+    transform: translate(100vh, 60vh);
+    opacity: 0;
+  }
+
+  66% {
+    transform: translate(-40vh, 20vh);
+    opacity: 0;
+  }
+
+  66.5% {
+    opacity: 1;
+  }
+
+  67% {
+    transform: translate(-10vh, 50vh);
+    opacity: 0;
+  }
+}
+
+.NavBarSection {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+/*This is the shapce craft hide buttom*/
+.HideCraft{
+  position: absolute;
+  bottom: 0;
+}
+
+/*Card Selection*/
+.CardSelection {
+  position: relative;
+  top: 28%;
+  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+.card-footer {
+  font-size: 0.8rem;
+}
+
+.cvcard {
+  margin: 40px auto 0 auto;
+}
+
+.bg-secondary{
+animation: Float 15s ease-in-out 1;
+}
+.bg-info{
+animation: Float 15s  1s ease-in-out 1;
+}
+.bg-success{
+  animation: Float 15s  2s ease-in-out 1;
+}
+
+@keyframes Float {
+  0%{ transform: rotate(0deg);}
+  0.5% {transform: rotate(-1deg);}
+  1% {transform: rotate(1deg);}
+  1.5% {transform: rotate(-1deg);}
+  2% {transform: rotate(1deg);}
+  2.5% {transform: rotate(-1deg);}
+  3% {transform: rotate(1deg);}
+  3.5% {transform: rotate(-0deg);}
+  100%{transform: rotate(-0deg);}
+}
+
+
+
+
+
+
+
+/*/////*/
+/*Changing Aspect Ratios*/
+
+@media (max-width: 800px) {
+  .CardSelection {
+    top: 20%;
+    padding: 0;
+    padding-bottom: 100px;
+
+  }
+
+  .StarShip {
+    height: 85px;
+    animation: Move1 30s ease-in-out infinite;
+    top: 10%;
+    left: 10%;
+    opacity: 1;
+  }
+  .HideCraft{
+    opacity: 0;
+  }
+  .bg-secondary{
+  animation-iteration-count: infinite;
+  }
+  .bg-info{
+  animation-iteration-count: infinite;
+  }
+  .bg-success{
+    animation-iteration-count: infinite;
+  }
+}
+
+
+@media (min-width: 801px) and (max-width: 1200px){
+  .CardSelection{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@keyframes Move1 {
+0%{transform: translate(-10vw,0) rotate(90deg);}
+20%{transform: translate(70vw,0)rotate(90deg);}
+21%{transform: translate(70vw,0) rotate(180deg);}
+  50%{transform: translate(70vw,1250px)rotate(180deg);}
+  51%{transform: translate(70vw,1250px) rotate(270deg);}
+    70%{transform: translate(-10vw,1250px) rotate(270deg);}
+    71%{transform: translate(-10vw,1250px) rotate(360deg);}
+      100%{transform: translate(-10vw,0)rotate(360deg);}
+}
+
+
+.Hidden{
+  opacity: 0;
+}
