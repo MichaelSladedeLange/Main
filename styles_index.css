@@ -312,10 +312,6 @@ text-align: center;
     animation: Mobile2 2s ease-in 1;
     opacity: 1;
 }
-.AstroTwo{
-  width: 50%;
-  margin: 0 auto 0 auto;
-}
 .ShootStar{
   position: absolute;
   animation: none;
