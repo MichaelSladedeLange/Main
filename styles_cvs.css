@@ -192,7 +192,8 @@ animation: Float 15s  1s ease-in-out 1;
     top: 20%;
     padding: 0;
     padding-bottom: 100px;
-
+    width: 70%;
+    margin: 0 auto 0 auto;
   }
 
   .StarShip {
@@ -226,10 +227,10 @@ animation: Float 15s  1s ease-in-out 1;
 
 @keyframes Move1 {
 0%{transform: translate(-10vw,0) rotate(90deg);}
-20%{transform: translate(70vw,0)rotate(90deg);}
-21%{transform: translate(70vw,0) rotate(180deg);}
-  50%{transform: translate(70vw,1250px)rotate(180deg);}
-  51%{transform: translate(70vw,1250px) rotate(270deg);}
+20%{transform: translate(67vw,0)rotate(90deg);}
+21%{transform: translate(67vw,0) rotate(180deg);}
+  50%{transform: translate(67vw,1250px)rotate(180deg);}
+  51%{transform: translate(67vw,1250px) rotate(270deg);}
     70%{transform: translate(-10vw,1250px) rotate(270deg);}
     71%{transform: translate(-10vw,1250px) rotate(360deg);}
       100%{transform: translate(-10vw,0)rotate(360deg);}
