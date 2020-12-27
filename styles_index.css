@@ -1,12 +1,14 @@
 /* Removes the margin on body */
 html{
   height: 100%;
+    overflow-x: hidden;
 }
 
 body{
   margin: 0;
   height: 100%;
-  width:100%;
+  width:99%;
+  overflow-x: hidden;
 }
 /*Sets the fixed background images*/
 .BackCoverDesk{
@@ -91,6 +93,9 @@ animation-delay: 0.5s;
   position: fixed;
   width: 100%;
   z-index:1;
+}
+.navbar{
+  width: 100%;
 }
 
 
@@ -240,7 +245,10 @@ to   { transform: rotate(360deg) translateX(300px)  rotate(110deg);}
   text-align: left;
   width: 100%;
   line-height: 2;
-}
+  margin: 0 auto 0 auto;
+ }
+ .container{
+   margin: 0 auto 0 auto; }
 .AboutMe_ImageOne{
   height: 200px;
   animation: circle 10s linear infinite;
@@ -301,6 +309,7 @@ text-align: center;
   /*headerSection*/
 .HeaderSection{
   width: 90%;
+  margin: 0 auto 0 auto;
 }
 /*////////////////////////////////////////////////////////////////////////////////*/
 /*  Scroll Down Section Op Mobile*/
@@ -311,11 +320,18 @@ text-align: center;
     animation: Mobile2 2s ease-in 1;
     opacity: 1;
 }
+.ShootStar{
+  position: absolute;
+  animation: none;
+}
+.AstroTwo{
+  animation: none;
+}
 
 /*//////////////////////////////////////////////////////////////////////////////*/
 /*EarthSection*/
 .EarthSection{
-  width: 80%;
+  width: 90%;
 }
 
 .SatOne{
