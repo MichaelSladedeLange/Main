@@ -1,6 +1,139 @@
+html{
+  height: 100%;
+  width: 100%;
+    overflow-x: hidden;
+}
+body{
+  height: 100%;
+  width:100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+hr{
+	border-top: 1px solid #8c8b8b;
+  margin:0;
+}
 
 .NavBarSection{
   position: fixed;
+  display: block;
   width: 100%;
   z-index:1;
+}
+
+/*first section*/
+.HeaderSectionFlex{
+  background-repeat: no-repeat;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0 50px 0;
+
+}
+.flex1{
+  color:white;
+  text-align: center;
+}
+.bounce{
+  width: 100%;
+}
+.bounce1{
+  animation: bouncer 15s ease-in-out infinite alternate;
+}
+.disclose{
+  width: 50%;
+  text-align: center;
+  color:white;
+  margin: 0 auto 0 auto;
+}
+
+
+
+/* future series*/
+.futureseries{
+  color:white;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+.detailsum{
+  font-family: "Montserrat";
+  font-weight: 400;
+  width: 50%;
+  text-align: center;
+  color:white;
+  margin: 0 auto 0 auto;
+}
+.flexcont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.mycards{
+  width: 250px;
+  height: 200px;
+  border-radius: 20%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  text-align: center;
+  margin: 80px 25px 30px 25px;
+}
+.mycardsimg{
+
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  border-style: solid;
+  border-color: white;
+
+}
+.mycardsimgdiv{
+    position: relative;
+      top:-62.5px;
+}
+.mycardsinfodiv{
+  color:white;
+  font-size: 2rem;
+  position: relative;
+  top:-50px;
+}
+.mycardsinfo{
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes bouncer {
+  0%{transform: translate(10px,-10px) rotate(3deg);}
+  30%{transform: translate(-10px,10px);}
+  60%{transform: translate(10px,-10px);}
+100%{transform: translate(-10px,10px) rotate(-3deg);}
+}
+
+@media (max-width: 800px){
+  .disclose{
+    width: 90%;
+  }
+  .detailsum{
+    width:90%;
+  }
+  .bounce{
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+
+
 }
